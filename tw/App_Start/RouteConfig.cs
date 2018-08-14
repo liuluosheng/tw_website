@@ -13,6 +13,11 @@ namespace tw
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             routes.MapRoute(
+                name: "service",
+                url: "service/{action}",
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
+            routes.MapRoute(
             name: "home",
             url: "{action}/{id}",
             defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

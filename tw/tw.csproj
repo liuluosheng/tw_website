@@ -312,6 +312,12 @@
     <Content Include="Views\Home\Presence.cshtml" />
     <Content Include="Views\Shared\_InnerLayout.cshtml" />
     <Content Include="Views\Home\Team.cshtml" />
+    <Content Include="Views\Shared\_ServiceLayout.cshtml" />
+    <Content Include="Views\Home\Lims.cshtml" />
+    <Content Include="Views\Home\SupplyChain.cshtml" />
+    <Content Include="Views\Home\Standard.cshtml" />
+    <Content Include="Views\Home\DataAnalysis.cshtml" />
+    <Content Include="Views\Home\Solution.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

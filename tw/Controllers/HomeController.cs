@@ -33,5 +33,28 @@ namespace tw.Controllers
             return View();
 
         }
+        public ActionResult Lims()
+        {
+            return View();
+        }
+        public ActionResult SupplyChain()
+        {
+            return View();
+        }
+
+        public ActionResult Standard()
+        {
+            return View();
+        }
+
+        public ActionResult DataAnalysis()
+        {
+            return View();
+        }
+
+        public ActionResult Solution()
+        {
+            return View();
+        }
     }
 }
