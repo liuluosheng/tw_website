@@ -33,27 +33,34 @@ namespace tw.Controllers
             return View();
 
         }
-        public ActionResult Lims()
+        public ActionResult Lims() //实验室LIMS软件系统
         {
             return View();
         }
-        public ActionResult SupplyChain()
-        {
-            return View();
-        }
-
-        public ActionResult Standard()
+        public ActionResult SupplyChain() //供应链质量管理
         {
             return View();
         }
 
-        public ActionResult DataAnalysis()
+        public ActionResult Standard() //技术标准服务
         {
             return View();
         }
 
-        public ActionResult Solution()
+        public ActionResult DataAnalysis() //第三方数据分析服务
         {
+            return View();
+        }
+
+        public ActionResult Solution() //解决方案
+        {
+            return View();
+        }
+        //public ActionResult dynamic() {    //业界动态
+        //    return View();
+        //}
+
+        public ActionResult Family() {    //加入我们
             return View();
         }
     }

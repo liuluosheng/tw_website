@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<main class="main">
+    <!-- Page Title -->
+    <div class="page-title text-center">
+        @RenderSection("title")
+    </div>
+    <!-- Page Title -->
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <span class="parent"> <i class="fa fa-home"></i> <a href="/"> 首页 </a> </span>
+            <i class="fa fa-chevron-right"></i>
+            @RenderSection("nav")
+          
+        </div>
+    </div>
+    <div class="container">
+        <div class="row about-sidebar">
+            <div class="col-md-9 about-content">      
+                @RenderSection("container")
+            </div>
+            <div class="col-md-3 sidebar left">
+                <div class="sidebar-blog-categories">
+                    <ul>
+                        <li> <a href="/service/supplychain"> 供应链质量管理 </a> </li>
+                        <li> <a href="/service/lims"> 实验室LIMS软件系统 </a> </li>
+                        <li> <a href="/service/standard"> 技术标准服务 </a> </li>
+                        <li> <a href="/service/dataanalysis"> 第三方数据分析服务 </a> </li>
+                    </ul>
+                </div>
+                <div class="sidebar-download">
+                    <div class="download-file color-bg">
+                        <a href="#">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Download PDF <span>1.5 MB</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
